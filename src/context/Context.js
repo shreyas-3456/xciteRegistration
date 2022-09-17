@@ -1,6 +1,6 @@
 import React, { useContext, useReducer } from 'react';
-import { useState } from 'react';
-import { SEND_MAIL, VERIFY_MAIL } from '../action';
+
+import { SEND_MAIL } from '../action';
 import reducer from '../reducers/reducer';
 
 const StateProvider = React.createContext();
